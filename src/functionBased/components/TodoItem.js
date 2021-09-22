@@ -34,10 +34,6 @@ const TodoItem = (props) => {
     editMode.display = 'none';
   }
 
-  // useEffect(() => () => {
-  //   console.log('cleaning up...');
-  // }, []);
-
   return (
     <li className={styles.item}>
       <div onDoubleClick={handleEditing} style={viewMode}>
